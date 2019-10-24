@@ -1,0 +1,8 @@
+.header {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 20px;
+  /*background-image: url("https://unsplash.it/1300/600?random")*/
+  background-image: url("images/adorable-animal.jpg");
+}
