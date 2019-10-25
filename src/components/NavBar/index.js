@@ -12,13 +12,13 @@ function SettingNavSide(props) {
       <ul className="settings-nav-side-bar">
         <li>
           <Link to="/information" className="nav-side-link">
-            <div
+            {/* <div
               className={`nav-side-link-div ${
                 active === INFORMATION ? "nav-side-active" : ""
               }`}
-            >
-              Informações da empresa
-            </div>
+            > */}
+            Informações da empresa
+            {/* </div> */}
           </Link>
         </li>
         <li>
@@ -33,7 +33,7 @@ function SettingNavSide(props) {
           </Link>
         </li>
         <li>
-          <Link to="/settings/register" className="nav-side-link ">
+          <Link to="/child" className="nav-side-link ">
             <div
               className={`nav-side-link-div ${
                 active === REGISTER ? "nav-side-active" : ""
